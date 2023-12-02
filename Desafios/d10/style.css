@@ -1,0 +1,31 @@
+
+body {
+    @font-face {
+        font-family: 'idroid' ;
+        src: url('/fontes/idroid.otf') format('otf');
+    }
+}
+
+header > h1 {
+    background-color: rgb(36, 129, 36);
+    color: white;
+    text-align: center;
+    
+    
+}
+
+header > h2 {
+    background-color: rgba(0, 128, 0, 0.74);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+
+nav > ul > a {
+    background-color: rgba(0, 128, 0, 0.712);
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}

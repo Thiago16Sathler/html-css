@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+
+Em HTML é id = em CSS é #
+Em HTML é class = em CSS é .
+
+Regra não pode usar o id mais de uma vez em um elemento em HTML.
+
+*/
+
+body{
+    background-color: rgb(145, 197, 145);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: rgb(61, 116, 61);
+}
+
+h1#Principal {
+
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color: rgb(78, 122, 78);
+}
+
+.basico {
+    color: rgb(39, 65, 39);
+    font-weight: bolder;
+
+}
+
+.intermediario {
+    color: rgb(124, 141, 70);
+
+}
+
+.avancado {
+    color: rgb(126, 80, 80);
+
+}
+
+.destaque {
+    background-color: rgba(143, 143, 88, 0.603);
+}
